@@ -39,11 +39,11 @@ print('一共有', len(good) ,'筆留言提到good')
 # 第一個d = append的d
 # 			運算			  變數		清單				篩選條件
 # out = [(number-1) for number in reference if number %2 == 0]
-good = [d for d in data if 'good' in d]
+# good = [d for d in data if 'good' in d]
 
 # # bad in d True or false
-bad = ['bad' in d for d in data]
-print(bad)
+# bad = ['bad' in d for d in data]
+# print(bad)
 
 # bad = []
 # for d in data:
@@ -65,7 +65,7 @@ for d in data:
 	
 
 for word in words_count:
-	if words_count[word] >1000000:
+	if words_count[word] >1000000: 
 			print(word,words_count[word])
 
 print(len(words_count)) #k字典的長度 總共有幾個key
